@@ -3,19 +3,57 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-body {
   font-family: "Dosis", sans-serif;
 }
 
+.TodoTemplate {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
 
-header {
+.header-box {
+  width: 800px;
   background-color: rgb(98, 197, 98);
   color: aliceblue;
+  display: flex;
   justify-content: center;
-  font-size: 35px;
+  align-items: center;
   border-radius: 10px;
+  padding: 20px 0;
   margin-top: 0;
-  padding: 30px 0;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.title-input {
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.text-input {
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.submit-btn {
+  margin-left: 30px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
 }
